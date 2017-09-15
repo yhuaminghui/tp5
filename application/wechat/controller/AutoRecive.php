@@ -7,7 +7,7 @@ use think\controller;
 define("TOKEN", "");//定义你公众号自己设置的token
 define("APPID", "");//填写你微信公众号的appid 千万要一致啊
 define("APPSECRET", "");//填写你微信公众号的appsecret  千万要记得保存 以后要看的话就只有还原了  保存起来 有益无害
-class WeChatController extends AppBaseController
+class AutoRecive extends controller
 {
     //判断是介入还是用户  只有第一次介入的时候才会返回echostr
     function index()
