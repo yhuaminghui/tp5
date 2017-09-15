@@ -6,6 +6,6 @@ class AutoRecive
 {
     public function index()
     {
-        echo 111;
+        return 'wo1tian3chi';
     }
 }
