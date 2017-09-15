@@ -5,7 +5,7 @@ class Index
 {
     public function index()
     {
-        echo '测试github 的 webhooks'; 
+        echo '测试github 的 webHooks';
 //        添加数据
 //        $rand = mt_rand(100000,999999);
 //        $sql = [
