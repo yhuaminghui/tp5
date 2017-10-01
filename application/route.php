@@ -17,5 +17,8 @@ return [
         ':id'   => ['index/hello', ['method' => 'get'], ['id' => '\d+']],
         ':name' => ['index/hello', ['method' => 'post']],
     ],
-    'wechatAuto'    =>  'app/wechat/AutoRecive/index'
+    // 微信认证与被动回复功能，如非必要请勿修改
+    'wechatAuto'    =>  'app/wechat/AutoRecive/index',
+    'new/:version'  => 'index/:version.Index/index',
+    '/'             =>  'index/Index/index'
 ];
