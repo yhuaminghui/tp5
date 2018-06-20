@@ -4,7 +4,7 @@ namespace app\wechat\Controller;
 /**
  * 首页
  */
-define("TOKEN", "wo1tian3chi");//定义你公众号自己设置的token
+define("TOKEN", "");//定义你公众号自己设置的token
 define("APPID", "");//填写你微信公众号的appid 千万要一致啊
 define("APPSECRET", "");//填写你微信公众号的appsecret  千万要记得保存 以后要看的话就只有还原了  保存起来 有益无害
 class AutoRecive
